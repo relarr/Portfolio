@@ -1,0 +1,26 @@
+.card {
+  background: #112240;
+  width: 15rem;
+  height: 22rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.wide {
+  width: 20rem;
+  height: 20rem;
+  padding: 1rem;
+}
+
+.card:hover {
+  animation: bounce-animation-3 1s linear;
+}
+
+.wide:hover {
+  animation: bounce-animation-2 1.5s linear;
+}

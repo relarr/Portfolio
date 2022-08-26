@@ -1,0 +1,22 @@
+.burger-links {
+  grid-area: burger;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links {
+  display: none;
+}
+
+@media (min-width: 47.5rem) {
+  .nav-links {
+    display: block;
+    grid-area: links;
+    height: 100%;
+  }
+  .burger-links {
+    display: none;
+  }
+}

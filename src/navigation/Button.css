@@ -1,0 +1,38 @@
+.button {
+  background-color: transparent;
+  border: 1.8px solid var(--green-font);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  color: var(--green-font);
+  font-family: 'PT Mono', monospace;
+  font-size: small;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #112f40;
+}
+
+#button {
+  background-color: transparent;
+  border: 1.8px solid var(--green-font);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  color: var(--green-font);
+  font-size: small;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: #112f40;
+}
+
+#button a {
+  color: var(--green-font) !important;
+}
+
+.big {
+  padding: 1.5rem 2rem;
+  font-weight: 900;
+  text-decoration: none;
+}

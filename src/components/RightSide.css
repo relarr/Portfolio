@@ -1,0 +1,27 @@
+.right-side {
+  display: none;
+}
+
+@media (min-width: 47.5rem) {
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .right-side p {
+    transform: rotate(90deg);
+    font-family: 'PT Mono', monospace;
+    font-size: small;
+    color: var(--blue-font);
+    margin: 4rem 0;
+  }
+
+  .right-vertical-line {
+    border-left: 1px solid var(--blue-font);
+    height: 10rem;
+    margin-top: 1.5rem;
+  }
+}

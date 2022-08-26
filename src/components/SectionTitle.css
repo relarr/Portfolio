@@ -1,0 +1,30 @@
+.title {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.title p {
+  margin: 0.8rem 1rem;
+  font-family: 'PT Mono', monospace;
+  color: var(--green-font);
+}
+
+.title h2 {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: xx-large;
+  color: var(--blue-font) !important;
+}
+
+.line {
+  border-top: 1px solid #233554;
+  width: 15rem;
+  margin: 1.5rem;
+}
+
+@media (min-width: 47.5rem) {
+  .title p {
+    font-size: large;
+    font-weight: bold;
+  }
+}

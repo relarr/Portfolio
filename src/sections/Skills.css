@@ -1,0 +1,40 @@
+.skills {
+  background-color: inherit;
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  margin: 2rem 0;
+}
+
+.skills-section img {
+  width: 3rem;
+}
+
+.skills-section h2 {
+  font-family: 'Inter', sans-serif;
+  color: var(--blue-font2);
+}
+
+.skills-section h4 {
+  font-family: 'PT Mono', monospace;
+  margin: 0.7rem;
+  color: var(--green-font);
+}
+
+@media (min-width: 47.5rem) {
+  .skills {
+    padding: 5rem 12%;
+  }
+
+  .skills-section {
+    flex-direction: row;
+  }
+}

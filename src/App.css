@@ -1,0 +1,75 @@
+.app {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 80%;
+  grid-template-areas:
+    'header'
+    'body';
+}
+
+:root {
+  --bg-color: #0a192f;
+  --green-font: #61eacd;
+  --blue-font: #ccd6f6;
+  --blue-font2: #8892b0;
+}
+
+@keyframes bounce-animation {
+  20%,
+  50%,
+  80%,
+  to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  70% {
+    transform: translateY(-5px);
+  }
+  90% {
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes bounce-animation-2 {
+  30%,
+  60%,
+  90% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce-animation-3 {
+  20%,
+  50%,
+  80%,
+  to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  70% {
+    transform: translateY(-15px);
+  }
+  90% {
+    transform: translateY(-5px);
+  }
+}
+
+@media (min-width: 47.5rem) {
+  .app {
+    grid-template-columns: 10% 80% 10%;
+    grid-template-areas:
+      'header header header'
+      'left-side body right-side';
+  }
+}
+
+@media (min-height: 38rem) {
+  .app {
+    grid-template-rows: 10% 90%;
+  }
+}

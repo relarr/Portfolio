@@ -1,0 +1,43 @@
+.logo {
+  grid-area: logo;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+.span-logo {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 2rem;
+  border: 2.8px solid var(--green-font);
+  border-radius: 5px;
+  background-color: transparent;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.span-logo:hover {
+  background: #112f40;
+}
+
+.derotate {
+  transform: rotate(-45deg);
+  color: var(--green-font);
+  font-family: 'PT Mono', monospace;
+  font-weight: bold;
+  margin: 0.3rem 0.5rem;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+@media (min-width: 47.5rem) {
+  .span-logo {
+    margin: 0 4rem;
+  }
+}

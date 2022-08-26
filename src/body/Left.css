@@ -1,0 +1,22 @@
+.left {
+  display: none;
+}
+
+@media (min-width: 47.5rem) {
+  .left {
+    display: block;
+    grid-area: left-side;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    height: 80%;
+    background-color: var(--bg-color);
+  }
+}
+
+@media (min-height: 38rem) {
+  .left {
+    height: 90%;
+  }
+}

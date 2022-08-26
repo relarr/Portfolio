@@ -1,0 +1,91 @@
+.projects {
+  background-color: inherit;
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.projects-section,
+.other-projects-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-projects-section h3 {
+  font-family: 'Inter', sans-serif;
+  color: var(--blue-font2);
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.other-projects-section h4 {
+  margin: 1rem 2rem;
+  font-family: 'Inter', sans-serif;
+  font-size: small;
+  font-weight: 500;
+  color: var(--blue-font2);
+  text-align: center;
+}
+
+.other-projects-section p {
+  font-family: 'PT Mono', monospace;
+  font-size: small;
+  font-weight: 400;
+  color: var(--blue-font2);
+  text-align: center;
+  margin: 1rem;
+  margin-top: 0;
+}
+
+.project-image {
+  width: 12rem;
+  height: 5.5rem;
+}
+
+.project-image img,
+.project-image a {
+  width: inherit;
+  height: inherit;
+  border-radius: 5px;
+  filter: grayscale(80%) brightness(50%) sepia(100%) hue-rotate(125deg)
+    saturate(150%);
+}
+
+.project-image img:hover {
+  cursor: pointer;
+  filter: none;
+}
+
+.projects h2 {
+  font-family: 'Inter', sans-serif;
+  color: var(--blue-font2);
+  text-align: center;
+}
+
+.other-projects {
+  margin-top: 6rem;
+}
+
+.other-projects-links img {
+  width: 1rem;
+  margin: 0 0.5rem;
+}
+
+.other-projects-links img:hover {
+  cursor: pointer;
+  filter: invert(15%) sepia(95%) saturate(1280%) hue-rotate(80deg)
+    brightness(500%) contrast(40%);
+}
+
+@media (min-width: 47.5rem) {
+  .projects {
+    padding: 5rem 12%;
+  }
+
+  .projects-section,
+  .other-projects-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

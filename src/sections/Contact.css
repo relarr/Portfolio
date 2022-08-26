@@ -1,0 +1,40 @@
+.contact {
+  background-color: inherit;
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.contact-section h1 {
+  color: var(--blue-font2);
+  margin-bottom: 0;
+}
+
+.contact-section p {
+  color: var(--blue-font2);
+  padding: 2rem;
+}
+
+@media (min-width: 47.5rem) {
+  .contact {
+    padding: 5rem 12%;
+  }
+
+  .contact-section {
+    padding: 6rem 0;
+  }
+
+  .contact-section p {
+    padding: 3rem;
+  }
+}

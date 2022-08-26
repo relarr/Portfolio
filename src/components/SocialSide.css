@@ -1,0 +1,36 @@
+.social-side {
+  display: none;
+}
+
+@media (min-width: 47.5rem) {
+  .social-side {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .social-side a {
+    margin: 0;
+    padding: 0;
+  }
+
+  .social-side img {
+    width: 1.5rem;
+    margin: 1rem;
+  }
+
+  .social-side img:hover {
+    cursor: pointer;
+    filter: invert(15%) sepia(95%) saturate(1280%) hue-rotate(80deg)
+      brightness(500%) contrast(40%);
+    animation: bounce-animation 1s linear;
+  }
+
+  .vertical-line {
+    border-left: 1px solid var(--blue-font);
+    height: 10rem;
+    margin-top: 1.5rem;
+  }
+}

@@ -1,0 +1,24 @@
+.header {
+  grid-area: header;
+  position: fixed;
+  height: 20%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 'logo burger';
+  background: var(--bg-color);
+  z-index: 5;
+}
+
+@media (min-width: 47.5rem) {
+  .header {
+    grid-template-columns: 10% 90%;
+    grid-template-areas: 'logo links';
+  }
+}
+
+@media (min-height: 38rem) {
+  .header {
+    height: 10%;
+  }
+}
