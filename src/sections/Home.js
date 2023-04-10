@@ -45,7 +45,7 @@ const Home = () => {
       </div>
       <div className='home-text'>
         <p>hello, world!</p>
-        <h2>Erick Larre99999999999999999a.</h2>
+        <h2>Erick Larrea.</h2>
         <h1 text-end='|'>{text}</h1>
       </div>
     </div>
