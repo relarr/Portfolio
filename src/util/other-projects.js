@@ -7,7 +7,7 @@ const otherProjects = [
   {
     id: 1,
     title: 'Expenses Tracker',
-    website: 'https://expenses-tracker-one.herokuapp.com/',
+    website: 'https://expenses-tracker-d906e.web.app',
     image: trackerImg,
     image_alt: 'tracker',
     description:
@@ -22,7 +22,7 @@ const otherProjects = [
       },
       {
         id: 2,
-        link: 'https://expenses-tracker-one.herokuapp.com/',
+        link: 'https://expenses-tracker-d906e.web.app',
         img: externalIcon,
         img_alt: 'externalIcon',
       },
