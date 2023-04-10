@@ -8,7 +8,7 @@ import './Projects.css';
 const Projects = () => {
   return (
     <div className='projects' id='projects'>
-      <SectionTitle sectionNumber='02.' title='Projects' />
+      <SectionTitle sectionNumber='02.' title='Projectseewqeq' />
       <div className='projects-section'>
         {projects.map((project) => (
           <Project
@@ -44,8 +44,7 @@ const Projects = () => {
                     key={link.id}
                     href={link.link}
                     target='_blank'
-                    rel='noreferrer'
-                  >
+                    rel='noreferrer'>
                     <img src={link.img} alt={link.img_alt} />
                   </a>
                 ))}
