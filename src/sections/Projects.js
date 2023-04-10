@@ -8,7 +8,7 @@ import './Projects.css';
 const Projects = () => {
   return (
     <div className='projects' id='projects'>
-      <SectionTitle sectionNumber='02.' title='Projectseewqeq' />
+      <SectionTitle sectionNumber='02.' title='Projec0000000' />
       <div className='projects-section'>
         {projects.map((project) => (
           <Project
